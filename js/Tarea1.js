@@ -6,17 +6,21 @@ alert("El director de esta pelicula es SAMM MENDEZ")
 document.write(nombre)
 document.write("<br>")
 */
+/*
+Ejercicio 3
 
+let pelicula = prompt("ingrese el nombre da la pelicula")
+let isFree = true
 
 let Peliculas = [
-
     {
         pelicula: "1917",
         isFree: false,
+        pago:200
     },
 
     {
-        pelicula: "el instante mas obscuro",
+        pelicula: "El instante mas obscuro",
         isFree: true,
     },
 
@@ -25,15 +29,45 @@ let Peliculas = [
         isFree: true,
     },
 
-   
+    {
+        pelicula: "Los olvidados",
+        isFree: true,
+    },
+
+    {
+        pelicula: "Macario",
+        isFree: false,
+        pago:190
+    },
+
+    {
+        pelicula: "Rescatando al soldado Ryan",
+        isFree: false,
+        pago:195
+    }
+    
 ]
-if(Peliculas[1]){
-    console.log(isFree)      
+if (pelicula == "1917"){
+    alert( `Es de paga y cuesta ${Peliculas[0].pago} pesos`)
 }
-
-
+if(pelicula == "El instante mas obscuro"){
+    alert("Es gratuito")
+}
+if(pelicula == "ROMA"){
+    alert("Es gratuito")
+}
+if(pelicula == "Los olvidados"){
+    alert("Es gratuito")
+}
+if(pelicula == "Macario"){
+    alert( `Es de paga y cuesta ${Peliculas[4].pago} pesos`)
+}
+if(pelicula == "Rescatando al soldado Ryan"){
+    alert( `Es de paga y cuesta ${Peliculas[5].pago} pesos`)
+}
+*/
 /*
-Ejercicio 5
+Ejercicio 4
 let mes = 10
 
 switch (mes){
