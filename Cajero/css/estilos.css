@@ -1,0 +1,60 @@
+.demo-layout-transparent {
+    background: url('../img/skyline-1925943_1280.jpg') center / cover;
+   
+
+  }
+  .demo-layout-transparent .mdl-layout__header,
+  .demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+       your background is light. */
+    color: white;
+  }
+
+body{
+  background-color: rgb(194, 57, 187);
+}
+/*Registro*/
+  .ingresa{
+    width: 500px;
+    height: 100%;
+    margin: auto;
+  }
+
+  .centro{
+    text-align: center;
+  }
+
+.columnas{
+  width: 96%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #e2e5ec;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.mld-botom{
+  cursor: pointer;
+}
+h2{
+  display: block;
+}
+/*Login*/
+h1{
+  text-align: center;
+}
+.login-form{
+  margin: 50px auto;
+  padding: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem
+}
+/*Principal*/
+.caja{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
